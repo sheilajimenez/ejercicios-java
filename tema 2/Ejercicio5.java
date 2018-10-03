@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ejercicio4 {
+public class Ejercicio5 {
  public static void main(String[] args){
 
 
@@ -13,9 +13,9 @@ public class Ejercicio4 {
   
   double valor = s.nextDouble();
   
-  int resultadoPtas = (int)(valor * pesetas);
+  int resultadoEuros = (int)(valor / pesetas);
   
-  System.out.println("El resultado es :" + resultadoPtas);
+  System.out.println("El resultado es :" + resultadoEuros);
   
  }
 }
