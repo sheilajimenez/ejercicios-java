@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Prueba1{
   public static void main(String[] args){
 
@@ -13,9 +15,22 @@ public class Prueba1{
    System.out.println("Introduces segundo numero");
    b = Integer.parseInt(s.nextLine()); 
   
-   int m = a * b;
-   
-   System.out.println("Resultados: "  );
-  }
-  
+    
+    if (a < b) {
+      System.out.println("El numero mayor es b" );
+    } else if (a > b) {
+      System.out.println("El numero mayor es a" );
+    } else {
+      System.out.println("Son iguales" );
+    }
+    
+    
+    if (a == b) {
+      System.out.println("Son iguales" );      
+    } else if (a > b) {
+      System.out.println("El numero mayor es a" );
+    } else {
+      System.out.println("El numero mayor es b" ); 
+    }
+ }
 }
